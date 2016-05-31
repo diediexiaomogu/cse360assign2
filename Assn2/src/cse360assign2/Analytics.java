@@ -2,15 +2,15 @@
 //Assignment 2
 //Student Name£º Ting Chen
 //PIN: 21
-//Description: the Analytics class inherit from OrderedIntList and 
-// 			   have five methods: mean, median, high, low, numInts.
+//Description: Analytics class inherits from OrderedIntList class and 
+// 			   has five methods: mean, median, high, low, numInts.
 //******************************
 
 package cse360assign2;
 
 /**
- * the Analytics class inherit from OrderedIntList and 
- * have five methods: mean, median, high, low, numInts.
+ * Analytics class inherits from OrderedIntList and 
+ * has five methods: mean, median, high, low, numInts.
  * @author Ting Chen
  * @version 1.0
  *
@@ -65,9 +65,9 @@ public class Analytics extends OrderedIntList{
 	}
 	
 	/**
-	   * This method finds the high value of the list
-	   * @param value This is the parameter to insert method
-	   * @return high value of the list
+	   * This method finds the highest value of the list
+	   * @param no parameter
+	   * @return highest value of the list
 	   */
 	public int high(){
 		
@@ -78,9 +78,9 @@ public class Analytics extends OrderedIntList{
 	}
 	
 	/**
-	   * This method finds low value of the list
+	   * This method finds lowest value of the list
 	   * @param no parameter
-	   * @return low value of the list
+	   * @return lowest value of the list
 	   */
 	public int low(){
 		

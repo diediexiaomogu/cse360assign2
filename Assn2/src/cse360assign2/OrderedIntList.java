@@ -43,7 +43,7 @@ public class OrderedIntList {
 	public void insert(int value) {
 		
 		if (debug){
-			System.out.print("debug - value = " + value + "  ");
+			System.out.print("debug-value = " + value + "  ");
 		}
 		
 		if (count == array.length)
@@ -71,7 +71,7 @@ public class OrderedIntList {
 			}
 		
 		if (debug){
-			System.out.print("debug - count = " + count + "\n");
+			System.out.print("debug-count = " + count + "\n");
 			
 		}
 	}

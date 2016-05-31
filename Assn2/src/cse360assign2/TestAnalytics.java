@@ -2,14 +2,14 @@
 //Assignment 2
 //Student Name£º Ting Chen
 //PIN: 21
-//Description: The TestAnalytics program contains a main method and test
+//Description: TestAnalytics program contains a main method and test
 //             all local and inherited methods in Analytics class.
 //******************************
 
 package cse360assign2;
 
 /**
- * The TestAnalytics program contains a main method and test
+ * TestAnalytics program contains a main method and test
  * all local and inherited methods in Analytics class
  * @author Ting Chen
  * @version 1.0
@@ -24,7 +24,7 @@ class TestAnalytics {
 	 */
 	public static void main(String[] args) {
 		
-		int array[] = {};
+		int array[] = {9,8,7,2,4,6,15,14,13,1,3,5,11,12,10};
 		
 		Analytics analytics = new Analytics();
 		
