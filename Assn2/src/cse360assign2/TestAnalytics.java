@@ -13,6 +13,7 @@ package cse360assign2;
  * all local and inherited methods in Analytics class
  * @author Ting Chen
  * @version 1.0
+ * @Date 5/30/2016
  */
 class TestAnalytics {
 	
@@ -25,6 +26,7 @@ class TestAnalytics {
 	public static void main(String[] args) {
 		
 		int array[] = {9,8,7,2,4,6,15,14,13,1,3,5,11,12,10};
+		//int array[] = {};
 		
 		Analytics analytics = new Analytics();
 		

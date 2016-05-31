@@ -14,14 +14,15 @@ package cse360assign2;
  * insert a new value into the array so that the
  * array remains in ascending order.
  * @author Ting Chen
- * 
+ * @version 1.0
+ * @Date 5/30/2016
  */
 
 public class OrderedIntList {
 	
 	protected int[] array;
 	protected int count; 
-	private boolean debug = true;
+	private final boolean debug = true;
 	
 	/**
 	 * class Constructor initialize an array of ten size
@@ -85,12 +86,17 @@ public class OrderedIntList {
 	
 	private void grow(){
 		
+		if (debug)
+			System.out.println("\narray size before grow: " + array.length);
 		int []temp = new int[count * 2];
 		
 		for (int index = 0; index < count; index++)
 			temp[index] = array[index];
 		
 		array = temp;
+		
+		if(debug)
+			System.out.println("array size after grow: " + array.length);
 	}
 	
 	/**

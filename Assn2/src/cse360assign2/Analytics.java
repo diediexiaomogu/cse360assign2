@@ -13,7 +13,7 @@ package cse360assign2;
  * has five methods: mean, median, high, low, numInts.
  * @author Ting Chen
  * @version 1.0
- *
+ * @Date 5/30/2016
  */
 public class Analytics extends OrderedIntList{
 	
